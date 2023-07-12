@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <table border="2px" style="width: 60%; height: 500px; font-size: 25px;" >
+        <tr>
+        <th colspan="2"><b>Registration Form</b></th>
+    </tr>
+            <tr>
+                <td>Student Name</td>
+                <td>
+                    <form action="submit" >
+                        <input type="text" placeholder="Enter Your Name" style="width:98%; height:35px; font-size: 20px;" >
+                                    </td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td>
+                    
+                <input type="text" placeholder="Enter Your Father Name" style="width:98%; height:35px; font-size: 20px;">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>Mother's Name</td>
+                <td>
+                    <input type="text" placeholder="Enter Your Mother Name" style="width:98%; height:35px;font-size: 20px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                        <input type="date"  style="width:80%; height:35px; font-size: 20px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td>
+                    
+                        <input type="email" placeholder="Enter Email Address" style="width:98%; height:35px; font-size: 20px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile No.</td>
+                <td>
+                        <input type="number" maxlength="11" placeholder="Enter Contact Number" style="width:98%; height:35px;font-size: 20px;">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                        <textarea name="" id="" cols="30" rows="4" placeholder="Enter Address" style="font-size: 20px;"></textarea>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td> 
+                    <select name="" id="" style="width:200px; font-size: 20px;">
+                        <option value="" selected disabled>Choose State</option>
+                        <option value="">Pakistan</option>
+                        <option value="">USA</option>
+                        <option value="">UK</option>
+                        <option value="">Afghanistan</option>
+                    </select>
+            </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td> 
+                    <select name="" id="" style="width:200px; font-size: 20px;">
+                        <option value="" selected disabled>Choose City</option>
+                        <option value="">Karachi</option>
+                        <option value="">New York</option>
+                        <option value="">London</option>
+                        <option value="">Kabul</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button style="width: 100px; height: 30px; margin-left:30px; margin-bottom: 10px;" type="submit">Submit</button></td>
+            </tr>
+        </table>
+</body>
+</html>
